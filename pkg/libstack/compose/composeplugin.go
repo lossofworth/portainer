@@ -18,9 +18,9 @@ import (
 	"github.com/compose-spec/compose-go/v2/cli"
 	"github.com/compose-spec/compose-go/v2/types"
 	"github.com/docker/cli/cli/command"
-	cmdcompose "github.com/docker/compose/v2/cmd/compose"
-	"github.com/docker/compose/v2/pkg/api"
-	"github.com/docker/compose/v2/pkg/utils"
+	cmdcompose "github.com/docker/compose/v5/cmd/compose"
+	"github.com/docker/compose/v5/pkg/api"
+	"github.com/docker/compose/v5/pkg/utils"
 	"github.com/rs/zerolog/log"
 	"github.com/sirupsen/logrus"
 )
