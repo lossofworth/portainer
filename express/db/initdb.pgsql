@@ -1,0 +1,28 @@
+CREATE TABLE IF NOT EXISTS mh_recs (
+  entry_id SERIAL UNIQUE,
+  id INT,
+  date DATE,
+  mood SMALLINT[3] DEFAULT NULL,
+  anxrate SMALLINT[3] DEFAULT NULL,
+  irtrate SMALLINT[3] DEFAULT NULL,
+  sleephr DECIMAL DEFAULT NULL,
+  took_meds BOOLEAN DEFAULT NULL,
+  notes TEXT DEFAULT NULL,
+  PRIMARY KEY (date)
+);
+
+CREATE TABLE IF NOT EXISTS users (
+  id SERIAL,
+  user_name TEXT DEFAULT NULL,
+  name TEXT DEFAULT NULL,
+  PRIMARY KEY (id)
+);
+
+CREATE TABLE IF NOT EXISTS meds (
+  med_id SERIAL,
+  id INT,
+  med TEXT DEFAULT NULL,
+  date_start DATE DEFAULT NULL,
+  date_end DATE DEFAULT NULL,
+  PRIMARY KEY (med_id)
+)

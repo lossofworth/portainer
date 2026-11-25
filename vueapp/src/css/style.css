@@ -1,0 +1,24 @@
+@import url('chillax.css');
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.wrapper {
+    padding: 0 15px;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Chillax-Regular';
+    color: #9ca19a;
+    background-color: #151a24;
+}
+
+h1 {
+    font-family: 'Chillax-Bold';
+    font-size: 2.5vw
+}

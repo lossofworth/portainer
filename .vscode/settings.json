@@ -1,0 +1,27 @@
+{
+    "pgsql.connections": [
+        {
+            "id": "EAF6A204-3908-4F9E-96DD-E3E24DEA498D",
+            "groupId": "9CF0BC6A-DBEA-4A36-8EA9-D86211A77531",
+            "authenticationType": "SqlLogin",
+            "connectTimeout": 15,
+            "applicationName": "vscode-pgsql",
+            "clientEncoding": "utf8",
+            "sslmode": "allow",
+            "savePassword": true,
+            "sslRootCertMode": "none",
+            "server": "mh_app",
+            "user": "node",
+            "password": "",
+            "hostaddr": "192.168.0.100",
+            "port": "5082",
+            "profileName": "mh_app, <default> (adminer)",
+            "database": "mhapp_db",
+            "sshPassword": "",
+            "profileOrigin": "parameters",
+            "expiresOn": 0,
+            "profileSource": 0,
+            "displayName": "mh_app, <default> (adminer)"
+        }
+    ]
+}
